@@ -1,0 +1,60 @@
+# Python dependencies for Purview Custom Connector SDK
+
+# Core Azure libraries
+azure-identity>=1.15.0
+azure-mgmt-purview>=1.0.0
+azure-core>=1.29.0
+
+# Apache Atlas integration
+pyapacheatlas>=0.13.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP and API
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Configuration and environment
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Azure Key Vault (for secrets)
+azure-keyvault-secrets>=4.7.0
+
+# Database connectors
+pyodbc>=5.0.0  # SQL Server, PostgreSQL, etc.
+pymysql>=1.1.0  # MySQL
+psycopg2-binary>=2.9.9  # PostgreSQL alternative
+sqlalchemy>=2.0.0  # ORM for multiple databases
+
+# File parsing
+openpyxl>=3.1.0  # Excel files
+python-docx>=1.1.0  # Word documents
+PyPDF2>=3.0.0  # PDF files
+chardet>=5.2.0  # Character encoding detection
+
+# Cloud storage
+azure-storage-blob>=12.19.0
+azure-storage-file-datalake>=12.14.0
+
+# Logging and monitoring
+opencensus-ext-azure>=1.1.13
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+black>=23.12.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# Documentation
+sphinx>=7.2.0
+sphinx-rtd-theme>=2.0.0
+
+# Utilities
+tqdm>=4.66.0  # Progress bars
+colorama>=0.4.6  # Colored terminal output
+click>=8.1.0  # CLI building
