@@ -44,7 +44,8 @@ htmlcov/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+# Allow notebooks in notebooks/ directory
+# *.ipynb
 
 # Environment variables
 .env
